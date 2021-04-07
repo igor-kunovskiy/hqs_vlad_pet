@@ -1,0 +1,11 @@
+module.exports.errorTypes = {
+  // request errors
+  DUPLICATE_COMMENT: 100,
+  REQUIRED_PARAMS: 101,
+  VALIDATION_ERROR: 102,
+  INVALID_AUTH: 103,
+  INVALID_DATA: 104,
+  // DB errors
+  DUPLICATE_RECORD: 200,
+  INTERNAL_DB_ERROR: 201,
+};
